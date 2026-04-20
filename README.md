@@ -18,7 +18,7 @@
 
 ## 🚀 Overview
 
-DREAM-S is a cutting-edge framework designed to significantly accelerate the inference speed of Vision Language Models (VLMs), such as LLaVA. By employing a novel speculative decoding mechanism, DREAM-S achieves up to a **3.8× speedup** over traditional autoregressive methods without compromising the quality of the output.
+DREAM-S is a cutting-edge framework designed to significantly accelerate the inference speed of Vision Language Models (VLMs), such as LLaVA. By employing a novel speculative decoding mechanism, DREAM-S achieves up to a **3.85× speedup** over traditional autoregressive methods without compromising the quality of the output.
 
 The core of DREAM-S is its innovative approach: **S**peculative Decoding with **T**arget-Aware Refinement and **A**daptive **R**efinement for Multimodal Generation. DREAM-S leverages a neural architecture search (NAS) framework with target-aware supernet training to automatically identify both the optimal interaction strategy between the draft and target models, and the most suitable draft model architecture for the underlying hardware platform. This allows the model to generate multiple tokens in parallel and validate them efficiently, leading to substantial gains in performance.
 
