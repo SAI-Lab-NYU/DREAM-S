@@ -4,7 +4,7 @@
     <strong>S</strong>peculative Decoding with <strong>T</strong>arget-Aware Refinement and <strong>A</strong>daptive <strong>R</strong>efinement for Multimodal Generation
   </p>
   <p align="center">
-    An open-source framework to accelerate Vision Language Model (VLM) inference by up to 3.8x with no quality loss.
+    An open-source framework to accelerate Vision Language Model (VLM) inference by up to 3.85x with no quality loss.
   </p>
 </div>
 
@@ -24,7 +24,7 @@ The core of DREAM-S is its innovative approach: **S**peculative Decoding with **
 
 ## ✨ Key Features
 
-- **High-Performance Inference:** Up to 3.8× faster inference for Vision Language Models (VLMs) compared to standard autoregressive decoding.
+- **High-Performance Inference:** Up to 3.85× faster inference for Vision Language Models (VLMs) compared to standard autoregressive decoding.
 - **Zero Quality Loss:** Maintains the same output distribution as the original model.
 - **Multimodal Support:** Fully compatible with multimodal models like LLaVA, SmolVLM, and Pixtral.
 - **Hardware-Adaptive NAS:** Automatically searches for the optimal draft model configuration tailored to the target hardware platform.
